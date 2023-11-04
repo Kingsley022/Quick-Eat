@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo:wght@300&family=Patrick+Hand&display=swap');
 :root{
     --padding: .5rem 2rem;
     --brown: #363636;
@@ -358,15 +360,18 @@ button{
     width: 154px;
 }
 .food-menu .menu-container .menu >.name{
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: .5rem;
-    line-height: 21px;
+    line-height: 23px;
+    font-family: 'Exo', sans-serif;
 }
 .food-menu .menu-container .menu >.price{
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 1rem;
-    line-height: 21px;
-    color: gray;
+    line-height: 26px;
+    font-size: 17px;
+    color: rgb(59, 58, 58);
+    font-family: 'Dancing Script', cursive;
 }
 .food-menu .menu-container .menu > a{
     width: 125px;

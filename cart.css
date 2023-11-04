@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Exo:wght@300&family=Patrick+Hand&display=swap');
+
 h2{
     color: var(--brown);
     text-align: center;
@@ -29,10 +32,12 @@ h2{
 .cart-item > .item-name{
     font-weight: bold;
     font-size: 19px;
+    font-family: 'Exo', sans-serif;
 }
 .cart-item > .item-price{
     color: var(--orange);
     font-weight: bold;
+    font-family: 'Exo', sans-serif;
 }
 .cart-item > .quantity-container{
     display: flex;
@@ -70,11 +75,13 @@ h2{
 .sub-total-amount{
     font-weight: bold;
     font-size: 18px;
+    font-family: 'Exo', sans-serif;
 }
 .total-amount{
     font-weight: bold;
     font-size: 24px;
     color: var(--orange);
+    font-family: 'Exo', sans-serif;
 }
 .check-out > button{
     width: 100%;
