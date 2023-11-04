@@ -1,8 +1,8 @@
 // handles Page Script Activation
 document.addEventListener("DOMContentLoaded", ()=> {
-    if(window.location.pathname === "/index.html"){
+    if(window.location.pathname === "/Quick-Eat/"){
         indexPage();
-    }else if(window.location.pathname === "/cart.html"){
+    }else if(window.location.pathname === "/Quick-Eat/cart.html"){
         cartScripts();
     }
 });
