@@ -72,6 +72,7 @@ const cartScripts =()=> {
             cartItems.splice(index, 1);
             localStorage.setItem("cartItems", JSON.stringify(cartItems));
             handleItemsTotal();
+            location.reload();
         })
     })
 
