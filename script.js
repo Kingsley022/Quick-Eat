@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
         cartScripts();
     }
 });
+console.log(window.location.pathname)
 // Scripts for Index Page
 const indexPage =()=>{
     const navList = document.getElementById("menu-items");
